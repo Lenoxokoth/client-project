@@ -1,0 +1,106 @@
+.contact-section{
+    height: 100vh;
+}
+
+    .contact-upper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+        .section-title{
+            font-size: 30px;
+        }
+
+        .section-sub-title{
+            font-size: 20px;
+        }
+
+
+    .container-contact{
+        display: grid;
+        grid-template-columns: auto auto;
+        max-width: 968px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        gap: 5rem;
+
+    }
+
+    .contact-info{
+        margin-top: 4rem;
+
+   }
+
+   .contact-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .contact-card{
+    background-color: grey;
+    width: 296px;
+    margin-top: 1rem;
+    border-radius: 0.75rem;
+    color: black;
+   }
+
+    .contact-icons{
+        margin-top: .75rem;
+   }
+
+   .contact-form{
+    margin-top: 4rem;
+   }
+    
+    .contact-form-input{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+        background: none;
+        color: black;
+        outline: none;
+        border-radius: 0.75rem;
+        padding: 1.5rem;
+        z-index: 1;
+    }
+
+    .contact-tag{
+        position: absolute;
+        font-size: 12px;
+        z-index: 10;
+        padding: 0.25rem;
+        top: -0.75;
+        left: 1.25rem;
+    }
+
+    .contact-form-div{
+        position: relative;
+        margin-bottom: 2rem;
+        height: 4rem;
+        color: black;
+        
+    }
+ .btn{
+    color: #ff014f;
+    padding: 15px 25px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #ff014f;
+    font-size: 17px;
+    font-weight: 600;
+ }
+
+ .btn:hover{
+    background-color: #ff014f;
+    color: white;
+    transition:ease-in-out .5s;
+ }
+
